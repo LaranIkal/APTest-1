@@ -29,7 +29,7 @@ public class apClass {
 		System.out.print("Enter file name ");
 		Scanner file = new Scanner(System.in);
 
-		System.out.println("10 character minimum length: ");
+		System.out.println("10 character is the  minimum length: ");
 		one = file.nextLine();
 
 		while (one.length() <= 10) {

@@ -57,7 +57,7 @@ public class Archivo {
  
  private static void leerNombreArchivo() {
 
-		System.out.print("Enter file name ");
+		System.out.print("Enter files name ");
 		@SuppressWarnings("resource")
 		Scanner file = new Scanner(System.in);
 
