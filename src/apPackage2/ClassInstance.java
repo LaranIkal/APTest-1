@@ -7,7 +7,7 @@ public class ClassInstance {
 		Archivo archivoObjeto = new Archivo();
 		archivoObjeto.getlongitudDelNombreDefault();
 		
-		System.out.println(  getlongitudDelNombreDefault);
+		System.out.println( archivoObjeto.getlongitudDelNombreDefault());
 	}
 
 }
