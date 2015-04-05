@@ -8,7 +8,8 @@ public class Archivo {
 	private static int longitudDelNombre;
 	public final int longitudNombreDefault = 10;
  Archivo (){
-	 }
+	 
+ }
  
  Archivo (String nombreArchivo , int longitudNombre ){
 	
