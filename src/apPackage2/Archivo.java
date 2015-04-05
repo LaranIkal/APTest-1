@@ -6,7 +6,7 @@ public class Archivo {
 
 	private static String nombreDelArchivo;
 	private static int longitudDelNombre;
-	public final int longitudNombreDefault = 10;
+	public static final int longitudNombreDefault = 10;
  Archivo (){
 	 
  }
@@ -15,7 +15,7 @@ public class Archivo {
 	
 	nombreDelArchivo = nombreArchivo;
 	 if(nombreDelArchivo != null && !nombreDelArchivo.isEmpty()){
-		
+		//The isEmpty Method returns false if the string is empty. !String used to get true if string is empty.
 		leerNombreArchivo();
 		 
 	}
@@ -47,7 +47,7 @@ public class Archivo {
  
  public static void  setlongitudDelNombre (int fileLength){
 	
-	 	//ombreDelArchivo = fileLength;
+	 longitudDelNombre = fileLength;
 		
  }
  
@@ -56,7 +56,11 @@ public class Archivo {
 	return longitudDelNombre;	
  }
  
- private static void leerNombreArchivo() {
+ public static int  getlongitudDelNombreDefault (){
+		
+		return longitudNombreDefault;	
+	 }
+ public static void leerNombreArchivo() {
 
 		System.out.print("Enter files name ");
 		@SuppressWarnings("resource")

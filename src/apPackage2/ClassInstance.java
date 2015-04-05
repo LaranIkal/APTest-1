@@ -5,7 +5,9 @@ public class ClassInstance {
 	public static void main(String[] args) {
 		
 		Archivo archivoObjeto = new Archivo();
-		archivoObjeto.Archivo();
+		archivoObjeto.getlongitudDelNombreDefault();
+		
+		System.out.println( + getlongitudDelNombreDefault);
 	}
 
 }
